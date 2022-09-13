@@ -1,45 +1,50 @@
 $pink-s1: #E57A7A;
-$red-s1:	#FF0000;
-$white-s1:#FFFFFF;    
-.margin{
+$red-s1: #FF0000;
+$white-s1:#FFFFFF;
+
+%header-share {
     margin-left: 7%;
     margin-right: 7%;
     display: flex;
     align-items: center;
 }
-.margin2{
-    margin-left: 7%;
-    margin-right: 7%;
+
+.header-top {
+    @extend %header-share;
+}
+
+.header-main {
+
     margin-top: 20px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    @extend %header-share;
 }
-.margin3{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.margin4{
-    margin-bottom: 0 ;
+
+
+.address {
+    margin-bottom: 0;
     margin-top: 0;
 }
-a{
-color: $white-s1;
-}
-.cmenu{
-   background-color: $pink-s1;
-}
-.dropdownm{
-border: 1px solid $white-s1;
-}
-.search{
-border: 1px solid $white-s1;
-}
-.divsearch{
-border: 1px solid $red-s1;
 
-padding: 0 0 0 0;
+a {
+    color: $white-s1;
 }
-.dropdownqg{
+
+.header-menu {
+    background-color: $pink-s1;
+}
+
+
+.menu-search {
+    border: 1px solid $red-s1;
+    padding: 0 0 0 0;
+
+    .search,
+    .dropdown-search {
+        border: 1px solid $white-s1;
+    }
+}
+
+.nation {
     font-size: 12px;
 }

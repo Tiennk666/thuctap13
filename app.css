@@ -1,25 +1,20 @@
-.margin {
+.header-top, .header-main {
   margin-left: 7%;
   margin-right: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.margin2 {
-  margin-left: 7%;
-  margin-right: 7%;
+.header-main {
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
-  align-items: center;
 }
 
-.margin3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.margin4 {
+.address {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -28,25 +23,21 @@ a {
   color: #FFFFFF;
 }
 
-.cmenu {
+.header-menu {
   background-color: #E57A7A;
 }
 
-.dropdownm {
-  border: 1px solid #FFFFFF;
-}
-
-.search {
-  border: 1px solid #FFFFFF;
-}
-
-.divsearch {
+.menu-search {
   border: 1px solid #FF0000;
   padding: 0 0 0 0;
 }
 
-.dropdownqg {
-  font-size: 12px;
+.menu-search .search,
+.menu-search .dropdown-search {
+  border: 1px solid #FFFFFF;
 }
 
+.nation {
+  font-size: 12px;
+}
 /*# sourceMappingURL=app.css.map */
