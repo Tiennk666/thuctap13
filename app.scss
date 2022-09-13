@@ -1,13 +1,13 @@
 $pink-s1: #E57A7A;
 $red-s1:	#FF0000;
 $white-s1:#FFFFFF;    
-.margin{
+.headertop{
     margin-left: 7%;
     margin-right: 7%;
     display: flex;
     align-items: center;
 }
-.margin2{
+.headermain{
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 20px;
@@ -15,31 +15,31 @@ $white-s1:#FFFFFF;
     display: flex;
     align-items: center;
 }
-.margin3{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.margin4{
+// .header{
+//     margin-top: 15px;
+//     margin-bottom: 15px;
+// }
+.address{
     margin-bottom: 0 ;
     margin-top: 0;
 }
 a{
 color: $white-s1;
 }
-.cmenu{
+.headermenu{
    background-color: $pink-s1;
 }
-.dropdownm{
+.dropdownsearch{
 border: 1px solid $white-s1;
 }
 .search{
 border: 1px solid $white-s1;
 }
-.divsearch{
+.menusearch{
 border: 1px solid $red-s1;
-
 padding: 0 0 0 0;
 }
-.dropdownqg{
+.nation{
     font-size: 12px;
 }
+

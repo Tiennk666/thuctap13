@@ -1,11 +1,11 @@
-.margin {
+.headertop {
   margin-left: 7%;
   margin-right: 7%;
   display: flex;
   align-items: center;
 }
 
-.margin2 {
+.headermain {
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 20px;
@@ -14,12 +14,7 @@
   align-items: center;
 }
 
-.margin3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.margin4 {
+.address {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -28,11 +23,11 @@ a {
   color: #FFFFFF;
 }
 
-.cmenu {
+.headermenu {
   background-color: #E57A7A;
 }
 
-.dropdownm {
+.dropdownsearch {
   border: 1px solid #FFFFFF;
 }
 
@@ -40,12 +35,12 @@ a {
   border: 1px solid #FFFFFF;
 }
 
-.divsearch {
+.menusearch {
   border: 1px solid #FF0000;
   padding: 0 0 0 0;
 }
 
-.dropdownqg {
+.nation {
   font-size: 12px;
 }
 
