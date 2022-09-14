@@ -1,6 +1,7 @@
 $pink-s1: #E57A7A;
 $red-s1: #FF0000;
 $white-s1:#FFFFFF;
+$pink-s2:#e4c5bd69;
 
 %header-share {
     margin-left: 7%;
@@ -43,8 +44,81 @@ a {
     .dropdown-search {
         border: 1px solid $white-s1;
     }
+
 }
 
 .nation {
     font-size: 12px;
+}
+
+.main_prod {
+    background-color: $pink-s2;
+  
+}
+
+.img_product {
+    height: 250px;
+    width: 100%;
+}
+
+.featured_products_left,
+.featured_products_right {
+    float: left;
+    width: 48%;
+}
+
+.featured_products_left {
+    margin-right: 15px;
+}
+
+.btn_buy {
+
+    text-align: center;
+    background-color: $white-s1;
+}
+
+.content_main {
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.arrow_product_left {
+    float: left;
+
+    margin-right: 15px;
+}
+
+.arrow_product_right {
+    float: left;
+
+
+}
+
+.price {
+    font-size: 18px;
+    color: red;
+    font-family: 650;
+}
+
+.main_products {
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
+.product {
+    width: 18%;
+    margin-right: 15px;
+    background-color: $white-s1;
+    float: left;
+
+    img {
+        width: 100%;
+    }
+}
+.line{
+  border-bottom: 3px solid gray ;
+   margin-left: 7%;
+    margin-right: 7%;
 }
